@@ -15,8 +15,9 @@ const ReducerTutorial = () => {
 
   return (
     <div>
-      <h1>{count}</h1>
-      <button onClick={() => {}}>Click Here</button>
+      <h1>{state.count}</h1>
+      <button onClick={() => {dispatch({type: "INCREMENT"})}}>Click Here</button>
+      {state.showText && <p>Show my text</p>}
     </div>
   );
 };
