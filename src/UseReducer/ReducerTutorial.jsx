@@ -2,7 +2,7 @@ import { useReducer } from "react";
 
 const ReducerTutorial = () => {
 
-    const [state, dispatch] = useReducer(reducer, {});
+    const [state, dispatch] = useReducer(reducer, {count: 0, showText: true});
 
     return(
 
