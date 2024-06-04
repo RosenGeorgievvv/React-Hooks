@@ -23,3 +23,8 @@ const ReducerTutorial = () => {
 };
 
 export default ReducerTutorial;
+
+
+//useReducer hooks is mainly used to manage several states. It behaves closely like useState hook.
+//Usually reducer func is being created where each action is being described in switch/case.
+//We choose the type of action on a onClick func in this example through dispatch.
