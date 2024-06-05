@@ -1,4 +1,7 @@
-import React from "react";  
+import { useContext } from "react";
+import { AppContext } from "./ContextTutorial";
+
+const {username} = useContext(AppContext);
 
 function User(props){
     return(
