@@ -19,3 +19,6 @@ const RefTutorial = () =>{
     )
 }
 export default RefTutorial;
+
+//useRef hook gives a reference. It can also focus an input(e.g).
+//Check the above example. There are also a lot of examples of useRef usage.
