@@ -8,7 +8,7 @@ function ContextTutorial(){
     const [username, setUsername] = useState("");
 
     return(
-        <AppContext.Provider>
+        <AppContext.Provider value={{username, setUsername}}>
             <Login  />
             <User  />
         </AppContext.Provider>
