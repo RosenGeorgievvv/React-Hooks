@@ -10,3 +10,4 @@ const RefTutorial = () =>{
         </div>
     )
 }
+export default RefTutorial;
