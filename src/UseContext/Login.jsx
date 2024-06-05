@@ -1,6 +1,7 @@
-import React from "react";
+import { useContext } from "react";
+import { AppContext } from "./ContextTutorial";
 
-function Login({ setUsername }){
+function Login(){
     return(
         <div>
             <input onChange={(e) =>{
