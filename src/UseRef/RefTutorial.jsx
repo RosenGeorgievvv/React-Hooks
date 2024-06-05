@@ -7,7 +7,7 @@ const RefTutorial = () =>{
     return(
         <div>
             <h1>Rosen</h1>
-            <input type="text" placeholder="enter a name" />
+            <input type="text" placeholder="enter a name" ref={inputRef} />
             <button>Change Name</button>
         </div>
     )
