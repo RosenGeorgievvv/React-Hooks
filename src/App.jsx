@@ -1,5 +1,6 @@
 
 import './App.css'
+import ContextTutorial from './UseContext/ContextTutorial'
 import EffectTutorial from './UseEffect/EffectTutorial'
 import ReducerTutorial from './UseReducer/ReducerTutorial'
 import RefTutorial from './UseRef/RefTutorial'
@@ -13,6 +14,7 @@ function App() {
       <EffectTutorial />
       <ReducerTutorial />
       <RefTutorial />
+      <ContextTutorial />
     </>
   )
 }
