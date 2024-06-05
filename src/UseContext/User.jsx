@@ -7,3 +7,4 @@ function User({ username }){
         </div>
     );
 }
+export default User;
