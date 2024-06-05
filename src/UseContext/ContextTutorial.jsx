@@ -8,10 +8,10 @@ function ContextTutorial(){
     const [username, setUsername] = useState("");
 
     return(
-        <div>
+        <AppContext.Provider>
             <Login  />
             <User  />
-        </div>
+        </AppContext.Provider>
     )
 }
 export default ContextTutorial;
