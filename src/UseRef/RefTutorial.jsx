@@ -6,6 +6,8 @@ const RefTutorial = () =>{
 
     const clickRefFunc = () =>{
         inputRef.current.focus();
+        console.log(inputRef.current.value);
+        inputRef.current.value = '';
     }
 
     return(
