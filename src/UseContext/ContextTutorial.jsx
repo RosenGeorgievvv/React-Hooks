@@ -7,8 +7,8 @@ function ContextTutorial(){
 
     return(
         <div>
-            <Login setUsername={setUsername} />
-            <User username={username} />
+            <Login  />
+            <User  />
         </div>
     )
 }
