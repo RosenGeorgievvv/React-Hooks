@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Login from "./Login";
 import User from "./User";
 
@@ -12,3 +12,4 @@ function ContextTutorial(){
         </div>
     )
 }
+export default ContextTutorial;
